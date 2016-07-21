@@ -16,6 +16,8 @@ h1 {
 h2 {
 	color: black;
 	font-size: 40px
+	text: center;
+
 }
 
 p {
@@ -32,4 +34,8 @@ p {
 
 #social-media {
 	background-color: red;
+}
+
+.button {
+	margin-left: 45%;
 }
