@@ -1,0 +1,45 @@
+<DOCTYPE ! html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather To Wear</title>
+</head>
+	<link rel="stylesheet" href="css/weather_to_wear.css"></link> 
+	<link rel="stylesheet" href="js/weather_to_wear.js"></html></link>
+<body>
+<h1>Welcome to Weather to Wear</h1>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<div class="slideshow" style="max-width:500px">
+  <img class="mySlides" src="images/the_bridge.jpg" style="width:200%">
+  <img class="mySlides" src="images/header_photo.jpg" style="width:200%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script> -->
+
+<button class="welcome_button">Begin</button>
+
+
+</body>
+</html>

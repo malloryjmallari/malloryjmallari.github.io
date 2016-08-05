@@ -1,0 +1,21 @@
+h1 {
+	text-align: center;
+	margin-top: 100px;
+}
+.col-md-4{
+	padding:25px;
+	padding-bottom: 25px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #2E294E;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+body{
+	background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/brickwall.png");
+}
